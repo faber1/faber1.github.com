@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Faber - Столярный дом</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Faber - Столярный дом" />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script type="text/javascript" src="js/prettify.js"></script>                                   
+  <script type="text/javascript" src="js/kickstart.js"></script>                  
+  <link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />                 
+  <link rel="stylesheet" type="text/css" href="style.css" media="all" />                          <!-- CUSTOM STYLES -->
+</head>
+
+<script type="text/javascript">
+  //Динамическое изменение размера шрифта у логотипа, в зависимости от ширина окна браузера
+  function fontSize() {
+    var width = 1000; // ширина, от которой идет отсчет
+    var fontSize_h1 = 52; // минимальный размер шрифта h1
+    var fontSize_h3 = 18; // минимальный размер шрифта h3
+    var bodyWidth = $('html').width();
+    var multiplier = bodyWidth / width;
+    if ($('html').width() >= width) {
+      fontSize_h1 = Math.floor(fontSize_h1 * multiplier);
+      fontSize_h3 = Math.floor(fontSize_h3 * multiplier);
+    }  
+    $('h1').css({fontSize: fontSize_h1+'px'});
+    $('h3').css({fontSize: fontSize_h3+'px'});
+  }
+  $(function() { fontSize(); });
+  $(window).resize(function() { fontSize(); });
+</script>
+
+<body>
+  <center>  
+  <!-- Logo -->
+  <div id="wrap_main" class="clearfix">
+	  <div class="col_12">
+    	<h1>FABER</h1>
+    	<h3>СТОЛЯРНЫЙ ДОМ</h3>
+	  </div>
+  </div>
+  
+  <!-- Gradient line -->
+  <div class="line"><hr></div>
+  
+  <!-- Menu Horizontal -->
+    <ul class="menu">
+      <li class="current"><a href="./index.html">Главная</a></li>
+      <li><a href="./about.html">Фабрика</a></li>
+      <li><a href="#">Галерея</a></li>
+      <li><a href="./contact.html">Контакты</a></li>
+    </ul>
+  </center>
+</body>
+</html>
