@@ -74,7 +74,8 @@ padding-top:4%;
 
 #wrap_main{
 background:#130717;
-padding:10%;
+padding-top: 10%;
+padding-bottom: 12%;
 }
 
 .menu{
@@ -132,6 +133,24 @@ left:0;
   border:1px solid #130717;
 }
 
+.line_logo {
+  background: #130717; /* Old browsers */
+  background: -moz-linear-gradient(left,  #130717 0%, #ffd700 50%, #130717 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#130717), color-stop(50%,#ffd700), color-stop(100%,#130717)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #130717 0%,#ffd700 50%,#130717 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #130717 0%,#ffd700 50%,#130717 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #130717 0%,#ffd700 50%,#130717 100%); /* IE10+ */
+  background: linear-gradient(left,  #130717 0%,#ffd700 50%,#130717 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#130717', endColorstr='#130717',GradientType=1 ); /* IE6-9 */
+  padding: 1px;
+  width: 32px;
+  height: 1px;
+}
+
+.line_logo hr {
+  border:1px solid #130717;
+}
+
 .top_logo {
 	background-color: #130717;
 	width: 160px;
@@ -140,6 +159,7 @@ left:0;
 
 .main {
 	width: 80%;
+	/*height: 500px;*/
 	text-align: justify;
 	color: #fff;
 }

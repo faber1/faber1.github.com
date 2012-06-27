@@ -18,14 +18,17 @@
     var width = 1000; // ширина, от которой идет отсчет
     var fontSize_h1 = 52; // минимальный размер шрифта h1
     var fontSize_h3 = 18; // минимальный размер шрифта h3
+    var lineLogo    = 200; // минимальный размер градиентной полосы в логотипе
     var bodyWidth = $('html').width();
     var multiplier = bodyWidth / width;
     if ($('html').width() >= width) {
       fontSize_h1 = Math.floor(fontSize_h1 * multiplier);
       fontSize_h3 = Math.floor(fontSize_h3 * multiplier);
+      lineLogo    = Math.floor(lineLogo * multiplier);
     }  
     $('h1').css({fontSize: fontSize_h1+'px'});
     $('h3').css({fontSize: fontSize_h3+'px'});
+    $('.line_logo').css({width: lineLogo+'px'});
   }
   $(function() { fontSize(); });
   $(window).resize(function() { fontSize(); });
@@ -37,12 +40,12 @@
   <div id="wrap_main" class="clearfix">
 	  <div class="col_12">
     	<h1>FABER</h1>
+      <div class="line_logo"><hr></div>
     	<h3>СТОЛЯРНЫЙ ДОМ</h3>
 	  </div>
   </div>
   
-  <!-- Gradient line -->
-  <div class="line"><hr></div>
+  <!-- <div class="line"><hr></div> -->
   
   <!-- Menu Horizontal -->
     <ul class="menu">
