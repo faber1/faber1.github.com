@@ -53,34 +53,34 @@ jQuery(document).ready(function($){
 			KSslideshow($(this), null);
 		});
 		
-		// add navigation buttons
-		var items = $(this).find('li');
-		wrap.append('<ul class="slideshow-buttons"></ul>');
-		items.each(function(index){
-			wrap.find('.slideshow-buttons')
-			.append('<li><a href="#slideshow-'+index+'" rel="'+index+'">'+(index+1)+'</a></li>');
-		});
+		// // add navigation buttons
+		// var items = $(this).find('li');
+		// wrap.append('<ul class="slideshow-buttons"></ul>');
+		// items.each(function(index){
+		// 	wrap.find('.slideshow-buttons')
+		// 	.append('<li><a href="#slideshow-'+index+'" rel="'+index+'">'+(index+1)+'</a></li>');
+		// });
 		
-		// stop play button
-		wrap.find('.slideshow-buttons')
-		.append('<li class="slideshow-stop"><a href="#slideshow-stop">Stop</a></li>');
-		wrap.find('.slideshow-stop a').click(function(e){
-			e.preventDefault();
-			if(!wrap.hasClass('paused')) { next = wrap.find('.slideshow li.current');}
-			else{ next = null; }
-			var slideshow = $(this).parents('.slideshow-wrap').find('ul.slideshow');
-			KSslideshow(slideshow, next);
-		});
+		// // stop play button
+		// wrap.find('.slideshow-buttons')
+		// .append('<li class="slideshow-stop"><a href="#slideshow-stop">Stop</a></li>');
+		// wrap.find('.slideshow-stop a').click(function(e){
+		// 	e.preventDefault();
+		// 	if(!wrap.hasClass('paused')) { next = wrap.find('.slideshow li.current');}
+		// 	else{ next = null; }
+		// 	var slideshow = $(this).parents('.slideshow-wrap').find('ul.slideshow');
+		// 	KSslideshow(slideshow, next);
+		// });
 		
-		// button events
-		$('.slideshow-buttons li:first').addClass('current');
-		wrap.find('.slideshow-buttons li').not('.slideshow-stop').find('a').click(function(e){
-			e.preventDefault();
-			var slideshow = wrap.find('ul.slideshow');
-			var link = $(e.currentTarget).attr('rel');
-			var next = slideshow.find('li').eq(link);
-			KSslideshow(slideshow, next);
-		});
+		// // button events
+		// $('.slideshow-buttons li:first').addClass('current');
+		// wrap.find('.slideshow-buttons li').not('.slideshow-stop').find('a').click(function(e){
+		// 	e.preventDefault();
+		// 	var slideshow = wrap.find('ul.slideshow');
+		// 	var link = $(e.currentTarget).attr('rel');
+		// 	var next = slideshow.find('li').eq(link);
+		// 	KSslideshow(slideshow, next);
+		// });
 	});
 	
 	// run slideshow
