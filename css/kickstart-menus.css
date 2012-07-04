@@ -62,12 +62,7 @@ position:relative;z-index:1000;}
   		font-family: "Rockwell extra";
   		text-decoration:none;
   		font-size:1.2em;
-  		color: #FFD700;
-  		/* Округления START */
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      border-radius: 10px;
-      /* Округления END */
+  		color: #ffee8d;
 		}
 		
 		.menu li.current>a,
@@ -80,8 +75,7 @@ position:relative;z-index:1000;}
 		
 		.menu li a:hover,
 		.menu li.hover>a{
-			/*background:#31133B;*/
-			color: #fff5bb;
-			text-shadow: black 1px 1px 2px, #FFD700 0 0 0.7em; /* Параметры тени */
+			color: #fff;
+			text-shadow: black 1px 1px 2px, #ffee8d 0 0 0.7em; /* Параметры тени */
 		}
 		
