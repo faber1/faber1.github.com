@@ -62,7 +62,7 @@ position:relative;z-index:1000;}
   		font-family: "Rockwell extra";
   		text-decoration:none;
   		font-size:1.2em;
-  		color: #ffee8d;
+  		color: #f6ebb5;
 		}
 		
 		.menu li.current>a,
@@ -76,6 +76,6 @@ position:relative;z-index:1000;}
 		.menu li a:hover,
 		.menu li.hover>a{
 			color: #fff;
-			text-shadow: black 1px 1px 2px, #ffee8d 0 0 0.7em; /* Параметры тени */
+			text-shadow: black 1px 1px 2px, #f6ebb5 0 0 0.7em; /* Параметры тени */
 		}
 		
