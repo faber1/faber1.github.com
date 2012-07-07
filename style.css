@@ -141,6 +141,11 @@ left:0;
   background-color: #f6ebb5;
 }
 
+.stolar_house {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
 .top_logo {
 	background-color: #130717;
 	width: 160px;
@@ -182,9 +187,7 @@ left:0;
   padding-top: 70px;
   margin-left: -18px;
   margin-top: -18px;
-  /*padding-left: 20px;*/
   background-color: #130717;
-  /*прозрачность*/
   -moz-opacity: 0.50;
   opacity: 0.50;
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50);
@@ -205,9 +208,7 @@ left:0;
   padding-top: 70px;
   margin-left: 40px;
   margin-top: -18px;
-  /*padding-left: 20px;*/
   background-color: #130717;
-  /*прозрачность*/
   -moz-opacity: 0.50;
   opacity: 0.50;
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50);
@@ -224,4 +225,31 @@ left:0;
 
 .faber_main_logo {
   height: 130px;
+}
+
+.gallery_bg {
+  margin-left: -76px;
+  margin-right: -76px;
+  margin-top: -18px;
+  padding-bottom: 2px;
+  width: 616px;
+  height: 570px;
+  background-color: #130717;
+  z-index: 0;
+  -moz-opacity: 0.50;
+  opacity: 0.50;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50);
+}
+
+.gallery_container {
+  width: 616px;
+  height: 570px;
+  z-index: 1;
+  position: absolute;
+  margin-top: -572px;
+  margin-left: -76px;
+}
+
+.msg_slideshow{
+  margin: 0 auto;
 }
