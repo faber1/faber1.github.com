@@ -3,7 +3,7 @@
     var width = 1000; // ширина, от которой идет отсчет
     var fontSize_h1 = 58; // минимальный размер шрифта h1
     var fontSize_h3 = 20; // минимальный размер шрифта h3
-    var lineLogo    = 220; // минимальный размер линии в логотипе
+    var lineLogo    = 216 // минимальный размер линии в логотипе
     var faber_logo_height = 74; // минимальный отступ линии от верхнего слова
     var bodyWidth = $('html').width();
     var multiplier = bodyWidth / width;
