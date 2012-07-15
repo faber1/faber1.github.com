@@ -1,5 +1,5 @@
 .msg_slideshow{
-  	width: 616px;
+  	width: 700px;
 	height: 570px;
 	position: relative;
 	overflow: hidden;
@@ -15,11 +15,9 @@
 }
 
 .msg_wrapper{
-	width: 616px;
+	width: 700px;
 	height: 570px;
 	position: relative;
-	margin: 0;
-	padding: 0;
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;

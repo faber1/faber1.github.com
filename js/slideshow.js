@@ -7,7 +7,7 @@ $(function() {
     * nmb_thumb_wrappers : total number of thumbs wrappers
     * nmb_images_wrapper : the number of images inside of each wrapper
     */
-    var interval            = 3000;
+    var interval            = 5000;
     var playtime;
     var current             = 0;
     var current_thumb       = 0;
@@ -263,7 +263,7 @@ $(function() {
         var imgwidth    = theImage.width;
         var imgheight   = theImage.height;
         
-        var containerwidth  = 616;
+        var containerwidth  = 700;
         var containerheight = 570;
 
         if(imgwidth > containerwidth){

@@ -182,7 +182,7 @@ left:0;
 }
 
 .left_gallery_menu {
-  width: 90%;
+  width: 70%;
   height: 500px;
   padding-top: 70px;
   margin-left: -18px;
@@ -203,10 +203,10 @@ left:0;
 }
 
 .right_gallery_menu {
-  width: 90%;
+  width: 70%;
   height: 500px;
   padding-top: 70px;
-  margin-left: 40px;
+  margin-left: 83px;
   margin-top: -18px;
   background-color: #130717;
   -moz-opacity: 0.50;
@@ -223,31 +223,44 @@ left:0;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=80);
 }
 
+.left_gallery_menu_show {
+  width: 70%;
+  height: 500px;
+  padding-top: 70px;
+  margin-left: -18px;
+  margin-top: -18px;
+  background-color: #130717;
+}
+
+.right_gallery_menu_show {
+  width: 70%;
+  height: 500px;
+  padding-top: 70px;
+  margin-left: 83px;
+  margin-top: -18px;
+  background-color: #130717;
+}
+
 .faber_main_logo {
   height: 130px;
 }
 
 .gallery_bg {
-  margin-left: -76px;
-  margin-right: -76px;
+  margin-left: -119px;
   margin-top: -18px;
-  padding-bottom: 2px;
-  width: 616px;
+  width: 702px;
   height: 570px;
   background-color: #130717;
   z-index: 0;
-  -moz-opacity: 1;
-  opacity: 1;
-  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100);
 }
 
 .gallery_container {
-  width: 616px;
+  width: 702px;
   height: 570px;
   z-index: 1;
   position: absolute;
-  margin-top: -572px;
-  margin-left: -76px;
+  margin-top: -570px;
+  margin-left: -119px;
 }
 
 .msg_slideshow{
