@@ -266,3 +266,9 @@ left:0;
 .msg_slideshow{
   margin: 0 auto;
 }
+
+.about_text {
+  font-size: 18px;
+  margin-right: 30px;
+  margin-left: 20px;
+}
