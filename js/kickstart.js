@@ -49,7 +49,7 @@ jQuery(document).ready(function($){
 		$(this).width('999em').attr('width','').attr('height','');
 	
 		$(this).find('li:first').addClass('current');
-		$(this).delay(2000).animate({alpha:1}, function(){
+		$(this).delay(4000).animate({alpha:1}, function(){
 			KSslideshow($(this), null);
 		});
 		
@@ -103,11 +103,11 @@ jQuery(document).ready(function($){
 		}
 		
 		// scroll
-		var scrollEffect = inner.scrollTo(next, 1000);
+		var scrollEffect = inner.scrollTo(next, 200);
 		current.removeClass('current');
 		next.addClass('current');
 		nav.removeClass('current').eq(next.index()).addClass('current');
-		slideshow.delay(2000).animate({alpha:1}, function(){
+		slideshow.delay(4000).animate({alpha:1}, function(){
 			if(wrap.hasClass('paused') == false){ KSslideshow(slideshow, null);  }
 		});
 	}
