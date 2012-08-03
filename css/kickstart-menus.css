@@ -51,7 +51,7 @@ position:relative;z-index:1000;}
 	MENU STYLES
 	EDIT BELOW THIS LINE TO CUSTOMIZE
 -----------------------------------*/
-@font-face {
+/*@font-face {
     font-family: 'KBVibrocentricRegular';
     src: url('../fonts/kb-vibrocentric-webfont.eot');
     src: url('../fonts/kb-vibrocentric-webfont.eot?#iefix') format('embedded-opentype'),
@@ -60,7 +60,7 @@ position:relative;z-index:1000;}
          url('../fonts/kb-vibrocentric-webfont.svg#KBVibrocentricRegular') format('svg');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 
 .menu{
@@ -71,7 +71,7 @@ position:relative;z-index:1000;}
 	
 		.menu li a{
   		padding:15px 30px;
-  		font-family: 'KBVibrocentricRegular';
+  		font-family: "Rockwell extra";
   		text-decoration:none;
   		font-size:1.2em;
   		color: #f6ebb5;

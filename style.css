@@ -13,7 +13,7 @@ gold lines: #FFD700;
 /*---------------------------------
   FONTS
 -----------------------------------*/
-@font-face {
+/*@font-face {
     font-family: 'KBVibrocentricRegular';
     src: url('fonts/kb-vibrocentric-webfont.eot');
     src: url('fonts/kb-vibrocentric-webfont.eot?#iefix') format('embedded-opentype'),
@@ -22,7 +22,7 @@ gold lines: #FFD700;
          url('fonts/kb-vibrocentric-webfont.svg#KBVibrocentricRegular') format('svg');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 @font-face {
     font-family: 'TiffeyExpertBold';
@@ -39,7 +39,7 @@ gold lines: #FFD700;
 	OVERRIDES
 -----------------------------------*/
 h1{
-  font-family: "TiffeyExpertBold", "Rockwell extra", "Trebuchet Ms", arial, verdana, sans-serif;
+  font-family: "Rockwell extra", "Trebuchet Ms", arial, verdana, sans-serif;
   font-size:72px; 
   color: #f6ebb5;
 }
@@ -51,18 +51,18 @@ h2{
 }
 
 h3{
-  font-family: "KBVibrocentricRegular", "Rockwell extra", "Trebuchet Ms", arial, verdana, sans-serif;
+  font-family: "Rockwell extra", "Trebuchet Ms", arial, verdana, sans-serif;
   font-size:25px; 
   color: #f6ebb5;
 }
 
 h4,h5,h6{
-font-family: "KBVibrocentricRegular", "Trebuchet Ms", arial, verdana, sans-serif;
+font-family: "Trebuchet Ms", arial, verdana, sans-serif;
 }
 
 thead th,
 tbody th{
-font-family: "KBVibrocentricRegular", "Trebuchet Ms", arial, verdana, sans-serif;
+font-family: "Trebuchet Ms", arial, verdana, sans-serif;
 }
 
 button,
@@ -70,15 +70,15 @@ a.btn,
 input[type="submit"],
 input[type="reset"],
 input[type="button"]{
-font-family: "KBVibrocentricRegular", "Trebuchet Ms", arial, verdana, sans-serif;
+font-family: "Trebuchet Ms", arial, verdana, sans-serif;
 }
 
 .menu{
-font-family: "KBVibrocentricRegular", "Rockwell extra", "Trebuchet Ms", arial, verdana, sans-serif;
+font-family: "Rockwell extra", "Trebuchet Ms", arial, verdana, sans-serif;
 }
 
 blockquote{
-font-family: "KBVibrocentricRegular", "Trebuchet Ms", arial, verdana, sans-serif;
+font-family: "Trebuchet Ms", arial, verdana, sans-serif;
 }
 
 /*---------------------------------
@@ -89,7 +89,7 @@ margin:0;
 padding:0;
 color:#000;
 background-color:#130717;
-font:normal 0.9em/150% "KBVibrocentricRegular", 'Arimo', "Trebuchet MS", arial, verdana, sans-serif;
+font:normal 0.9em/150% 'Arimo', "Trebuchet MS", arial, verdana, sans-serif;
 text-shadow: 0px 0px 1px transparent; /* google font pixelation fix */
 }
 
@@ -293,4 +293,8 @@ left:0;
   font-size: 18px;
   margin-right: 30px;
   margin-left: 20px;
+}
+
+.contacts_text {
+  margin-left: 40px;
 }
