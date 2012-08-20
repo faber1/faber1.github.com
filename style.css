@@ -48,6 +48,7 @@ h2{
   font-family: "TiffeyExpertBold", "Rockwell extra", "Trebuchet Ms", arial, verdana, sans-serif;
   font-size:36px; 
   color: #f6ebb5;
+  letter-spacing: 4px;
 }
 
 h3{
@@ -173,7 +174,7 @@ left:0;
 
 .top_logo {
 	background-color: #130717;
-	width: 160px;
+	width: 180px;
 	margin-top: -36px;
 }
 
@@ -290,13 +291,13 @@ left:0;
 }
 
 .about_text {
-  font-family: "Rockwell extra", "Trebuchet Ms", arial, verdana, sans-serif;
+  font-family: "Times new roman", "Rockwell extra", "Trebuchet Ms", arial, verdana, sans-serif;
   font-size: 18px;
   margin-right: 30px;
   margin-left: 20px;
 }
 
 .contacts_text {
-  font-family: "Rockwell extra", "Trebuchet Ms", arial, verdana, sans-serif;
+  font-family: "Times new roman", "Rockwell extra", "Trebuchet Ms", arial, verdana, sans-serif;
   margin-left: 40px;
 }
